@@ -81,7 +81,7 @@ unsigned char find_median(unsigned char *arr, int sz);
  *
  * @return 	mean 	The mean value 
  */
-unsigned char find_mean(unsigned char *arr, int sz);
+int find_mean(unsigned char *arr, int sz);
 
 
 /**
@@ -122,6 +122,6 @@ unsigned char find_minimum(unsigned char *arr, int sz);
  *
  * @return 	none
  */
-unsigned char fsort_array(unsigned char *arr, int sz);
+void sort_array(unsigned char *arr, int sz);
 
 #endif /* __STATS_H__ */
