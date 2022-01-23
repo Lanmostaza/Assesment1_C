@@ -9,17 +9,16 @@
  *
  *****************************************************************************/
 /**
- * @file <Add File Name> 
- * @brief <Add Brief Description Here >
+ * @file stats.c
+ * @brief Assessment 1 of the coursera embedded course.
  *
- * <Add Extended Description Here>
+ * Assessment 1 in which an array is analyzed to obtain its median, mean,
+ * maximum, and minimum valus as well as to sort it from largest to smallest. 
  *
- * @author <Add FirsName LastName>
- * @date <Add date >
+ * @author LANM
+ * @date 22 - 01 2022
  *
  */
-
-
 
 #include <stdio.h>
 #include "stats.h"
@@ -27,6 +26,7 @@
 /* Size of the Data Set */
 #define SIZE (40)
 
+/* MAIN -------------------------------------------------------------*/
 void main() {
 
   unsigned char test[SIZE] = { 34, 201, 190, 154,   8, 194,   2,   6,
@@ -40,4 +40,4 @@ void main() {
 
 }
 
-/* Add other Implementation File Code Here */
+/* FUNCTIONS -------------------------------------------------------------*/
